@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+		   <div class="head-card">
+	<form action="proses_projek4.php" method="post">
+		<center>
+			<font size="20">
+				Kalkulator Bunga
+			</font>			
+				<hr>
+				<table>
+					<tr>
+						<td>Saldo Awal
+						<td><input name=saldoawal size="10">
+					<tr>
+						<td>Lama Simpan
+						<td><input name="lamasimpan" size="10">
+					<tr>
+						<td>Bunga perTahun
+						<td><input name="bunga" size="10">
+	
+					<tr>
+						<td>Jenis Bunga
+						<td><input type="radio" name="jenis" kerja value="present">Present Value
+					<tr>
+						<td>
+						<td><input type="radio" name="jenis" value="future">Future Value
+				</table>
+				<hr width="50%">
+				<input type="submit" value="Proses">
+				<input type="reset" value="Hapus">
+	</form>
+	<div class="footer"></div>
+	<footer>
+		<p>Revan's Kalkulator &#169; 2022, Revan Rionaldo</p>
+	</footer>
+    </div>
+</body>
+</html>
